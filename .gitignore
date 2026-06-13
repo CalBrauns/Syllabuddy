@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Backend secrets & DB
+backend/.env
+backend/study.db
+backend/*.db
+
+# Node
+node_modules/
+frontend/node_modules/
+
+# Build output
+frontend/dist/
+frontend/.vite/
+
+# Env files
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
